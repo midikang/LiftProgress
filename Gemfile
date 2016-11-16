@@ -50,3 +50,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Added by Midi
 gem 'bootstrap', '~> 4.0.0.alpha3.1'
 # Make sure gem ‘sass-rails’, ‘~> 5.0’ is there
+gem 'react-rails'

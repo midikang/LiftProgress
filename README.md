@@ -1,4 +1,4 @@
-# Rails5 application template 
+# Rails5 application template
 Based on rails 5.0.0.1
 
 Created by Midi Kang(midi13@gmail.com)
@@ -25,3 +25,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+```
+rails g react:install
+```
