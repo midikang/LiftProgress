@@ -29,3 +29,13 @@ Things you may want to cover:
 ```
 rails g react:install
 ```
+
+https://medium.com/coding-and-web-development/creating-a-resource-for-lifts-d9c5135489b1#.o1otfysqc
+
+```
+rails g resource Lift date:date liftname ismetric:boolean weightlifted:integer repsperformed:integer onerm:integer
+```
+
+```
+rake db:create db:migrate
+```
