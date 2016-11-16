@@ -39,3 +39,12 @@ rails g resource Lift date:date liftname ismetric:boolean weightlifted:integer r
 ```
 rake db:create db:migrate
 ```
+
+```
+rails c
+```
+
+Add a new Lift to the database with this command:
+```
+Lift.create date: Date.today, liftname: 'Bench press', ismetric: true, weightlifted: '220', repsperformed: '1', onerm: '220'
+```
